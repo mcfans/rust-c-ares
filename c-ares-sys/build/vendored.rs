@@ -49,7 +49,7 @@ fn compile() {
         .define("CARES_STATIC", "ON")
         .define("CARES_SHARED", "OFF")
         .define("CARES_BUILD_TOOLS", "OFF")
-        .define("CARES_THREADS", "OFF")
+        .define("CARES_THREADS", "ON")
         .define("CMAKE_INSTALL_LIBDIR", "lib")
         .build();
 
